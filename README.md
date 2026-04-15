@@ -92,6 +92,5 @@ pm2 logs katalk-analyzer
 
 | 변수명 | 필수 | 설명 |
 |--------|------|------|
-| `ANTHROPIC_API_KEY` | ✅ | Claude API 인증 키. [console.anthropic.com](https://console.anthropic.com) 에서 발급 |
 | `PORT` | ❌ | 서버 포트 (기본값: `3001`, EC2 배포 시 `80`) |
 | `NODE_ENV` | ❌ | 실행 환경 (`production` 설정 시 CORS 비활성화) |
