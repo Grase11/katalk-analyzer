@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+client/build/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# SSH/Credentials
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+
+# Logs
+*.log

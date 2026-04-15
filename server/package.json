@@ -1,0 +1,29 @@
+{
+  "name": "katalk-relationship-analyzer-server",
+  "version": "1.0.0",
+  "description": "카톡 관계 분석기 백엔드 서버",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --config ../jest.config.js",
+    "test:unit": "jest --config ../jest.config.js --testPathPattern=tests/unit",
+    "test:property": "jest --config ../jest.config.js --testPathPattern=tests/property",
+    "test:integration": "jest --config ../jest.config.js --testPathPattern=tests/integration"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.1029.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "http-proxy-middleware": "^3.0.5",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "fast-check": "^3.22.0",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
