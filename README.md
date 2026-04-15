@@ -7,7 +7,6 @@
 ### 사전 요구사항
 
 - Node.js 18 이상
-- Anthropic API 키 ([console.anthropic.com](https://console.anthropic.com) 에서 발급)
 
 ### 설치 및 실행
 
